@@ -31,20 +31,20 @@ spike_source = sim.Population(n_neurons,
 # populations and projections
 layer_1 = sim.Population(n_neurons, sim.IF_curr_alpha(),
                          label = "layer_1")
-
+'''
 layer_2 = sim.Population(n_neurons, sim.IF_curr_alpha(),
                          label = "layer_2")
-
+'''
 proj_src_2_l1 = sim.Projection(spike_source, layer_1,
                                sim.OneToOneConnector())
-
+'''
 proj_l1_2_l2 = sim.Projection(layer_1, layer_2, 
                               sim.OneToOneConnector())
-
+'''
 sim.run(sim_time)
 
 layer_1.record(('spikes', 'v'))
-layer_2.record(['spikes', 'v'])
+#layer_2.record(['spikes', 'v'])
 #layer_1.record(['v', 'spikes'])
 #layer_2.record(['v', 'spikes'])
 

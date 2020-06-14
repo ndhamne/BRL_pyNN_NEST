@@ -1,0 +1,1 @@
+The population forms a weighted network so that the activity bump has a gaussian distribution when a particular neuron is spiked. The spiked neuron fires maximally but the neighbouring neurons fire as well. The parameters governing the distribution are mu and sigma, while the neighbourhood is governed by weights and delays.

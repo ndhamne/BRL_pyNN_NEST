@@ -1,6 +1,6 @@
 # BRL_pyNN_NEST
 
-The vesrions used:
+The versions used:
 
 PyNEST                        nest-2.18.0        
 PyNN                          0.9.5 

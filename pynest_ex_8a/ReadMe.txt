@@ -1,0 +1,1 @@
+In this script the farther neuron has a sufficient stimulation to stop the activity bump in other neuron as opposed to the previous one. This case would be monumental for loop closures because the agent has stored the info previously. 
